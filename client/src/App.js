@@ -1,18 +1,31 @@
+import React, {useEffect} from 'react'
 import './App.css';
+
+import { useDispatch } from 'react-redux'
+
+import {getPosts} from './redux/actions/posts';
 import Post from './Posts/Post/Post.js';
-import Form from './Form/Form.js';
 import Navbar from './components/Navbar.js'
+import Forms from './Form/Form.js';
 
 const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() =>{
+    dispatch(getPosts());
+  }, [dispatch])
+
   return(
     <div>
-    <Navbar>
+    <Navbar />
       <h1>
         hello world
       </h1>
       <Post/>
-      <Form />
-      </Navbar>
+      <Post/>
+      <Post/>
+      <Forms></Forms>
+    
     </div>
   )
 }
