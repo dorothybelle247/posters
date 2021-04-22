@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
     {/* https://codepen.io/wouterXD/pen/PowjvBb */}
       <ul className="nav">
-        <li className="logo">Neumorph Co.</li>
+        <li className="logo">Parotier</li>
         <li tabindex="0">
           <i>home</i>
         </li>

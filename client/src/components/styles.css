@@ -25,7 +25,7 @@ body {
 	margin-right: auto;
 	font-family: "Roboto", sans-serif;
 	font-size: 1.5rem;
-	color: dimgray;
+	color: rgb(30,30,40);
 	font-weight: 900;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px white;
 }
@@ -39,7 +39,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	cursor: pointer;
 	transition: color 0.2s ease-out, transform 0.2s ease-out;
-	color: dimgray;
+	color: rgb(30,30,40);
 }
 
 .nav li:not(.logo):hover {

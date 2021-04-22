@@ -18,13 +18,14 @@ const App = () => {
   return(
     <div>
     <Navbar />
+    <Forms></Forms>
       <h1>
         hello world
       </h1>
       <Post/>
       <Post/>
       <Post/>
-      <Forms></Forms>
+     
     
     </div>
   )
